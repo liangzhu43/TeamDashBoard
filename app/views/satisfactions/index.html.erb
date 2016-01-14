@@ -1,1 +1,20 @@
 <h1>Member satisfactions Index!</h1>
+
+<%= link_to 'New satisfaction', new_satisfaction_path %>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Score</th>
+  </tr>
+<% @satisfactions.each do |satisfaction| %>
+  <tr>
+    <td><%= satisfaction.date %></td>
+    <td><%= satisfaction.name %></td>
+    <td><%= satisfaction.category %></td>
+    <td><%= satisfaction.score %></td>
+  </tr>
+<% end %>
+</table>
