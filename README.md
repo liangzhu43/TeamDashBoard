@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/liangzhu43/TeamDashBoard.svg?branch=master)](https://travis-ci.org/liangzhu43/TeamDashBoard)
+
 ## README
 
 This README would normally document whatever steps are necessary to get the
