@@ -10,4 +10,5 @@ before_script:
 deploy:
   provider: heroku
   api_key: cc53536a-6c99-4b5a-ab56-615f5a32fdd8
+  app: still-reaches-5213
   run: "rake db:migrate"
