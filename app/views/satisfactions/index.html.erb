@@ -4,6 +4,7 @@
 
 <table>
   <tr>
+    <th>Id</th>
     <th>Date</th>
     <th>Name</th>
     <th>Category</th>
@@ -11,8 +12,9 @@
   </tr>
 <% @satisfactions.each do |satisfaction| %>
   <tr>
-    <td><%= satisfaction.date %></td>
+    <td><%= satisfaction.id %></td>
     <td><%= satisfaction.name %></td>
+    <td><%= satisfaction.date %></td>
     <td><%= satisfaction.category %></td>
     <td><%= satisfaction.score %></td>
   </tr>
